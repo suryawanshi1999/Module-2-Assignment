@@ -1,0 +1,85 @@
+body > h1
+{
+	text-align: center;
+}
+.main-container
+{
+	width:90%;
+	margin:auto;
+}
+
+/*desktop view (992px and above)*/
+@media(min-width: 992px) {
+.box
+{
+	background-color: #999999;
+	border: 2px solid black;
+	margin-right:10px;
+	margin-top: 50px;
+	padding-left:15px;
+	width: 30%;
+	float: left;
+}
+}
+/*tablet view (between 768px and 991px, inclusively),*/
+
+@media(min-width: 768px) and (max-width:991px){
+	.box
+	{
+		background-color: #999999;
+		border: 2px solid black;
+		margin-top: 50px;
+		padding-left:15px;
+		width: 45%;
+		float: left;
+	}
+	.mid-box
+	{
+		float: right;
+	}
+	.last-box
+	{
+		clear:left;
+		width: auto;
+		margin-top: 15px;
+	}
+}
+/* mobile view (equal to or less than 767px)*/
+
+@media(max-width: 767px) {
+	.box
+	{
+		background-color: #999999;
+		border: 2px solid black;
+		margin-top: 20px;
+		padding-left:15px;
+		width:auto;
+	}
+}
+.smallbox
+{
+	width: 150px;
+	border-width: 0px 0px 2px 2px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	float: right;
+}
+#smallbox1
+{
+	background-color: #D59898;
+}
+#smallbox2
+{
+	background-color: #C14543;
+	color: white;
+}
+#smallbox3
+{
+	background-color: #E5D198;
+}
+.box > p
+{
+	clear:right;
+	padding-top:15px;
+}
